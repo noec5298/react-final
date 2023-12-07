@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow ;
+    width: 100vw;
+    height: 60px;
+    color: black;
+    align-items: center;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 32px;
+        width: 100%;
+
+        .links {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            flex: 1;
+    
+            a {
+                text-decoration: none;
+                color: black;
+                padding-right: 8px;
+                font-weight: 600;
+            }
+
+            a:hover {
+                color: red;
+            }
+    
+            a:last-of-type {
+                padding-right: 0px;
+            }
+        }
+    }
+}
